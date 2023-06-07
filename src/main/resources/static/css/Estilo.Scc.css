@@ -1,0 +1,54 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 jun. 2023, 17:19:24
+    Author     : brand
+*/
+#encabezado{
+    Position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: blue;
+    color : white;
+}
+#encabezado h1{
+    display: inline;
+}
+
+#menu{Position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: black;
+    color : white;}
+
+#menu a :hover{
+    background-color:red;
+    color:white;
+    
+}
+#barralateral{
+    Position: absolute;
+    top: 12%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: #00ffa0;
+    padding: 10px;
+}
+
+#contenido{
+    Position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color: #00ffa0;
+    padding: 10px;
+}
+
