@@ -29,7 +29,7 @@ public class CategoriaController {
     @GetMapping("/listado")
     public String inicio(Model model) {
         log.info("Consumiendo el recurso /categoria/listado");
-        List<Categoria> categorias = categoriaService.getCategorias(false);
+        List<Categoria> categorias = categoriaService.getPorDescripcion("Item");
         model.addAtribute("categorias", categorias);
         model.addAtribute("totalCategorias", categorias.size());
         return "/categoria/modifica";

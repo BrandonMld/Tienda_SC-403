@@ -17,5 +17,15 @@ public Producto getProducto (Producto categoria);
 public void save (Producto categoria);
 // Se elimina el categoria que tiene el id pasado por
 public void delete (Producto producto);
+
+//Ejemplo de método utilizando Métodos de Query
+public List<Producto> findByPrecioBetweenOrderByDescripcion(double precioInf, double precioSup);
+//Lista de productos utilizando consultas con JPQL    
+    public List<Producto> metodoJPQL(double precioInf, double precioSup);
+
+     //Lista de productos utilizando consultas con SQL Nativo
+    public List<Producto> metodoNativo(double precioInf, double precioSup);
+
+
     
 }
